@@ -1,4 +1,4 @@
 import json
 readit = open('.jres', 'r')
 data = json.load(readit)
-print(json.dumps(data, indent=40))
+print(json.dumps(data, indent=int('4'), ensure_ascii=False))
