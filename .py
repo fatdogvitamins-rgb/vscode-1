@@ -11,4 +11,4 @@ df = pd.DataFrame({
         }
     }
 })
-[print(df.sonic.to_string(buf=None,max_rows=None)) for _ in range(3)]
+[print(df.sonic.to_string(buf=None,max_rows=None,header=True)) for _ in range(3)]
